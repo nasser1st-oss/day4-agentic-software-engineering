@@ -1,0 +1,61 @@
+asset_id,asset_type,unit,location,install_year,last_inspection,operating_hours,status,criticality,notes
+TNK-1001,Storage Tank,Unit-200 Reforming,Riyadh Plant A,2009,2024-05-05,21434,Flagged for Inspection,High,
+PMP-1002,Centrifugal Pump,Unit-200 Reforming,Yanbu Terminal,2008,2024-04-20,11478,Standby,Medium,
+CMP-1003,Gas Compressor,Unit-100 Crude,Riyadh Plant A,2015,2026-05-23,63392,In Service,Medium,Vibration trending upward
+CMP-1004,Gas Compressor,Unit-100 Crude,Jubail Complex,2020,2025-02-04,55052,In Service,Medium,
+TNK-1005,Storage Tank,Unit-400 Sulfur Recovery,Riyadh Plant A,2015,2026-02-18,46427,Flagged for Inspection,Medium,Seal replaced last cycle
+TNK-1006,Storage Tank,Unit-300 Utilities,Riyadh Plant A,2009,2024-04-28,38512,In Service,Low,Awaiting spare parts
+TRB-1007,Steam Turbine,Unit-300 Utilities,Jubail Complex,2018,2025-03-07,42993,Flagged for Inspection,High,Vibration trending upward
+VLV-1008,Control Valve,Unit-400 Sulfur Recovery,Jubail Complex,2019,2024-03-09,91886,Flagged for Inspection,Medium,Thermal efficiency below baseline
+PMP-1009,Centrifugal Pump,Unit-400 Sulfur Recovery,Jubail Complex,2011,2024-06-03,35653,Standby,Medium,Seal replaced last cycle
+TNK-1010,Storage Tank,Unit-200 Reforming,Jubail Complex,2015,2025-08-05,40325,Flagged for Inspection,Medium,
+VLV-1011,Control Valve,Unit-200 Reforming,Yanbu Terminal,2014,2025-04-16,19915,In Service,High,Vibration trending upward
+TNK-1012,Storage Tank,Unit-100 Crude,Jubail Complex,2010,2026-07-13,86104,Under Maintenance,Medium,
+TNK-1013,Storage Tank,Unit-300 Utilities,Yanbu Terminal,2019,2024-09-11,22621,In Service,Low,Vibration trending upward
+TRB-1014,Steam Turbine,Unit-200 Reforming,Yanbu Terminal,2008,2026-05-04,89959,In Service,Medium,Vibration trending upward
+HEX-1015,Heat Exchanger,Unit-100 Crude,Yanbu Terminal,2020,2024-09-11,72042,In Service,High,Thermal efficiency below baseline
+HEX-1016,Heat Exchanger,Unit-100 Crude,Riyadh Plant A,2011,2024-04-24,71699,In Service,Medium,Vibration trending upward
+TNK-1017,Storage Tank,Unit-300 Utilities,Yanbu Terminal,2015,2026-03-28,87507,Under Maintenance,Medium,Seal replaced last cycle
+TNK-1018,Storage Tank,Unit-400 Sulfur Recovery,Yanbu Terminal,2012,2025-06-15,23860,In Service,Medium,
+HEX-1019,Heat Exchanger,Unit-200 Reforming,Yanbu Terminal,2008,2026-09-08,8942,In Service,High,Seal replaced last cycle
+PMP-1020,Centrifugal Pump,Unit-100 Crude,Yanbu Terminal,2022,2024-06-08,44500,Flagged for Inspection,Low,Seal replaced last cycle
+VLV-1021,Control Valve,Unit-200 Reforming,Jubail Complex,2010,2026-08-26,61354,In Service,High,
+TNK-1022,Storage Tank,Unit-400 Sulfur Recovery,Jubail Complex,2014,2025-07-28,15100,Flagged for Inspection,High,
+TRB-1023,Steam Turbine,Unit-200 Reforming,Riyadh Plant A,2019,2025-02-07,78292,Under Maintenance,Medium,
+CMP-1024,Gas Compressor,Unit-100 Crude,Jubail Complex,2012,2025-04-26,80132,In Service,High,
+PMP-1025,Centrifugal Pump,Unit-400 Sulfur Recovery,Jubail Complex,2022,2024-03-16,36016,Under Maintenance,High,Vibration trending upward
+TRB-1026,Steam Turbine,Unit-400 Sulfur Recovery,Jubail Complex,2008,2025-05-14,80845,Flagged for Inspection,Low,Vibration trending upward
+CMP-1027,Gas Compressor,Unit-100 Crude,Yanbu Terminal,2012,2024-01-11,15492,In Service,Low,Vibration trending upward
+PMP-1028,Centrifugal Pump,Unit-100 Crude,Yanbu Terminal,2016,2024-03-03,38828,Under Maintenance,High,Seal replaced last cycle
+VLV-1029,Control Valve,Unit-400 Sulfur Recovery,Yanbu Terminal,2017,2024-02-19,82085,Standby,Medium,Awaiting spare parts
+CMP-1030,Gas Compressor,Unit-200 Reforming,Jubail Complex,2018,2026-06-13,25154,Flagged for Inspection,Medium,Recurring high-temp alarms
+HEX-1031,Heat Exchanger,Unit-400 Sulfur Recovery,Yanbu Terminal,2022,2024-01-19,21104,In Service,Medium,Awaiting spare parts
+CMP-1032,Gas Compressor,Unit-200 Reforming,Jubail Complex,2022,2025-02-10,28676,Under Maintenance,Medium,
+TNK-1033,Storage Tank,Unit-100 Crude,Riyadh Plant A,2021,2026-05-09,23129,In Service,Medium,Awaiting spare parts
+HEX-1034,Heat Exchanger,Unit-200 Reforming,Yanbu Terminal,2017,2024-06-21,42600,Standby,Low,Awaiting spare parts
+PMP-1035,Centrifugal Pump,Unit-300 Utilities,Riyadh Plant A,2009,2026-07-01,51719,In Service,Medium,Vibration trending upward
+TNK-1036,Storage Tank,Unit-100 Crude,Riyadh Plant A,2015,2026-07-03,27536,Standby,High,Thermal efficiency below baseline
+VLV-1037,Control Valve,Unit-200 Reforming,Riyadh Plant A,2016,2024-07-10,55795,In Service,Medium,Seal replaced last cycle
+TNK-1038,Storage Tank,Unit-300 Utilities,Yanbu Terminal,2011,2026-02-28,61264,Standby,Medium,Seal replaced last cycle
+CMP-1039,Gas Compressor,Unit-100 Crude,Riyadh Plant A,2020,2024-07-24,51540,Under Maintenance,Medium,Awaiting spare parts
+CMP-1040,Gas Compressor,Unit-400 Sulfur Recovery,Riyadh Plant A,2020,2026-02-28,69694,In Service,Medium,Recurring high-temp alarms
+HEX-1041,Heat Exchanger,Unit-100 Crude,Yanbu Terminal,2012,2024-04-07,60227,In Service,Medium,
+HEX-1042,Heat Exchanger,Unit-400 Sulfur Recovery,Yanbu Terminal,2013,2026-09-27,78282,In Service,High,
+HEX-1043,Heat Exchanger,Unit-100 Crude,Riyadh Plant A,2010,2026-05-20,64959,In Service,Medium,
+VLV-1044,Control Valve,Unit-200 Reforming,Jubail Complex,2016,2024-07-02,65154,In Service,Medium,Thermal efficiency below baseline
+TRB-1045,Steam Turbine,Unit-300 Utilities,Yanbu Terminal,2009,2026-06-28,24334,Flagged for Inspection,Medium,Awaiting spare parts
+TNK-1046,Storage Tank,Unit-300 Utilities,Yanbu Terminal,2014,2025-07-05,33144,Under Maintenance,Low,Vibration trending upward
+VLV-1047,Control Valve,Unit-100 Crude,Jubail Complex,2017,2025-07-10,35549,Under Maintenance,Medium,Recurring high-temp alarms
+TRB-1048,Steam Turbine,Unit-400 Sulfur Recovery,Yanbu Terminal,2015,2026-04-06,94356,In Service,Medium,Thermal efficiency below baseline
+PMP-1049,Centrifugal Pump,Unit-200 Reforming,Riyadh Plant A,2021,2024-05-05,11201,In Service,Medium,Recurring high-temp alarms
+VLV-1050,Control Valve,Unit-400 Sulfur Recovery,Yanbu Terminal,2021,2024-08-19,33485,Flagged for Inspection,Low,Recurring high-temp alarms
+TRB-1051,Steam Turbine,Unit-100 Crude,Jubail Complex,2011,2024-01-08,31053,Flagged for Inspection,Low,
+VLV-1052,Control Valve,Unit-200 Reforming,Jubail Complex,2011,2024-08-22,77616,Standby,Medium,Recurring high-temp alarms
+VLV-1053,Control Valve,Unit-400 Sulfur Recovery,Yanbu Terminal,2021,2026-09-15,28861,Flagged for Inspection,Low,Recurring high-temp alarms
+HEX-1054,Heat Exchanger,Unit-400 Sulfur Recovery,Yanbu Terminal,2020,2024-05-08,43992,Under Maintenance,High,Awaiting spare parts
+CMP-1055,Gas Compressor,Unit-100 Crude,Riyadh Plant A,2012,2025-06-05,38311,Under Maintenance,Medium,Seal replaced last cycle
+PMP-1056,Centrifugal Pump,Unit-400 Sulfur Recovery,Jubail Complex,2014,2025-06-02,35110,Under Maintenance,Low,
+VLV-1057,Control Valve,Unit-300 Utilities,Jubail Complex,2014,2025-01-25,59116,Under Maintenance,Medium,Recurring high-temp alarms
+CMP-1058,Gas Compressor,Unit-100 Crude,Jubail Complex,2012,2025-08-11,60994,Flagged for Inspection,Medium,Recurring high-temp alarms
+CMP-1059,Gas Compressor,Unit-400 Sulfur Recovery,Yanbu Terminal,2017,2026-01-19,94900,In Service,High,
+CMP-1060,Gas Compressor,Unit-100 Crude,Jubail Complex,2021,2025-03-13,50906,In Service,Low,Thermal efficiency below baseline

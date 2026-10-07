@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance Assets</title>
+</head>
+<body>
+    <h1>Maintenance Assets</h1>
+    <div id="assets"></div>
+    <script>
+        async function fetchAssets() {
+            const response = await fetch('http://localhost:8000/assets');
+            const assets = await response.json();
+            const assetsDiv = document.getElementById('assets');
+            assetsDiv.innerHTML = '<ul>' + assets.map(asset => `<li>${asset.asset_id} - ${asset.asset_type}</li>`).join('') + '</ul>';
+        }
+        fetchAssets();
+    </script>
+</body>
+</html>
