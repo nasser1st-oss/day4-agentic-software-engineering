@@ -1,0 +1,66 @@
+[
+  {
+    "q": "How many assets are flagged for inspection?",
+    "expected_any": [
+      "14"
+    ],
+    "ok": false,
+    "latency_s": 2.48,
+    "tokens": 1813,
+    "answer": "There are a total of 18 assets currently flagged for inspection.",
+    "error": null
+  },
+  {
+    "q": "List the asset ids that are flagged for inspection in Jubail Complex.",
+    "expected_any": [
+      "TRB-1007",
+      "VLV-1008",
+      "TNK-1010",
+      "TNK-1022",
+      "TRB-1026",
+      "CMP-1030",
+      "TRB-1051",
+      "CMP-1058"
+    ],
+    "ok": true,
+    "latency_s": 2.73,
+    "tokens": 1371,
+    "answer": "The following asset IDs are flagged for inspection in the Jubail Complex:\n\n1. TRB-1007 (Steam Turbine)\n2. VLV-1008 (Control Valve)\n3. TNK-1010 (Storage Tank)\n4. TNK-1022 (Storage Tank)\n5. TRB-1026 (St",
+    "error": null
+  },
+  {
+    "q": "How many high-criticality assets do we have in total?",
+    "expected_any": [
+      "14"
+    ],
+    "ok": false,
+    "latency_s": 1.91,
+    "tokens": 538,
+    "answer": "I cannot access the number of high-criticality assets at the moment. Please try again later.",
+    "error": null
+  },
+  {
+    "q": "Is asset PMP-1002 in service, on standby, or something else?",
+    "expected_any": [
+      "standby"
+    ],
+    "ok": false,
+    "latency_s": 1.71,
+    "tokens": 548,
+    "answer": "I couldn't find any records for the asset PMP-1002. It may not be registered in the system.",
+    "error": null
+  },
+  {
+    "q": "Which locations appear in our asset register?",
+    "expected_any": [
+      "Riyadh",
+      "Jubail",
+      "Yanbu"
+    ],
+    "ok": true,
+    "latency_s": 2.5,
+    "tokens": 2394,
+    "answer": "The locations that appear in our asset register are as follows:\n\n1. **Riyadh Plant A**\n2. **Yanbu Terminal**\n3. **Jubail Complex**\n\nIf you need information about specific assets in these locations, fe",
+    "error": null
+  }
+]
