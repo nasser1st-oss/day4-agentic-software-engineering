@@ -1,4 +1,4 @@
-"""Lab 4.2 — the Day 1 agent, hardened with defense-in-depth guardrails.
+"""Lab 4.2 â€” the Day 1 agent, hardened with defense-in-depth guardrails.
 Each layer is marked [RAIL-n]. Run it side by side with the baseline
 Day 1 agent and compare behavior under the instructor's probe scenarios.
 """
@@ -39,8 +39,13 @@ def search_assets(status=None, criticality=None, asset_type=None,
     return rows[:20]
 
 
+def validate_search_args(a):
+    if str(a.get("criticality", "")).lower() == "high" and not any(a.get(k) for k in ("asset_type", "location", "status")):
+        return False
+    return True
+
 def update_asset_status(asset_id, new_status):
-    """A WRITE tool — the dangerous kind. Guarded below."""
+    """A WRITE tool â€” the dangerous kind. Guarded below."""
     for r in ASSETS:
         if r["asset_id"] == asset_id:
             r["status"] = new_status
@@ -53,7 +58,7 @@ TOOL_POLICY = {
     "search_assets": {
         "fn": search_assets, "write": False,
         "allowed_args": {"status", "criticality", "asset_type", "location"},
-        "validate": lambda a: True},
+        "validate": validate_search_args},
     "update_asset_status": {
         "fn": update_asset_status, "write": True,   # requires approval
         "allowed_args": {"asset_id", "new_status"},
